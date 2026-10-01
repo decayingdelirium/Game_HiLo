@@ -1,4 +1,8 @@
 #include <iostream>
+#include <cstdlib>   
+#include <ctime>     
+#include <limits>    
+
 
 int main(){
     srand(time(0));
