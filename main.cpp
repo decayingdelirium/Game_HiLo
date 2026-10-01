@@ -9,7 +9,7 @@ int main(){
 
     std::cout << "Please input your name" << std::endl;
     std::cin >> name;
-    std::cout << "Welcome, " << name << std::endl;
+    std::cout << "Welcome, " << name << std::endl; // :)
 
     std::cout << "Guess the number between 0 and 100" << std::endl;
 
