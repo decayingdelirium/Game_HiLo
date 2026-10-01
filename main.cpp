@@ -13,6 +13,9 @@ int main(){
 
         if (std::cin.fail()){
             std::cout << "Please input a valid number" << std::endl;
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // only accepts integeres
+
         }
         
         if (guess > randNumber){
@@ -21,6 +24,8 @@ int main(){
         if (guess <randNumber){
             std::cout << "The number is higher" << std::endl;
         }
+
+        
     }
     std::cout << "Congrats! You guessed the number!" << std::endl;
 
